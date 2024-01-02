@@ -13,3 +13,6 @@ git checkout -b new-branch-name
 git add bash.sh
 git commit -m "Modify bash script"
 git push origin new-branch-name
+git checkout main
+git checkout -b develop
+git checkout -b new-branch-from-develop
